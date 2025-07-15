@@ -1,0 +1,36 @@
+# 智能语音舞蹈机器人 - 核心依赖包
+
+# 🌐 网络通信
+requests>=2.25.1              # HTTP请求库，用于百度API调用
+
+# 🔢 数值计算
+numpy>=1.21.0                 # 数值计算，音频处理和VAD算法基础
+
+# 🎵 音频处理
+pyaudio>=0.2.11               # 音频录音和播放
+librosa>=0.8.1                # 音乐分析和特征提取
+scipy>=1.7.0                  # 科学计算，信号处理
+
+# 🎭 智能舞蹈系统
+madmom>=0.16.1                # 音乐信息检索和节拍检测
+
+# 🎤 语音处理
+webrtcvad>=2.0.10             # Google WebRTC VAD语音活动检测
+
+# 🤖 硬件控制
+pyserial>=3.5                 # 舵机控制板串口通信
+
+# 🔗 马尔可夫链和动作分析
+# 注：使用Python标准库实现，无需额外依赖
+
+# ⚙️ 系统级依赖安装（Ubuntu/Debian/Orange Pi OS）
+# sudo apt-get update
+# sudo apt-get install -y portaudio19-dev python3-dev libsndfile1-dev libfftw3-dev
+
+# 🚀 项目特性
+# 🎭 模块化舞蹈系统 - 清晰的dance_system模块架构
+# 🔗 马尔可夫链增强 - 智能动作连贯性算法
+# 🎵 音乐感知选择器 - 多维度音乐分析和动作匹配
+# 🤖 自动动作分析 - 动作库特征自动提取
+# 🔧 硬件自适应 - 自动串口检测和舵机控制板通信
+# 🎤 智能语音交互 - 百度API集成的高精度语音识别
